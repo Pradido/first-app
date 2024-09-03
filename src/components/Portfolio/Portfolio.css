@@ -1,0 +1,144 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.two-color-body {
+    height: 100vh;
+    background: linear-gradient(to bottom, white 60%, #60E1CB 40%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px;
+}
+
+.parent-container {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.parent-container p {
+    color: rgb(67, 168, 235);
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.parent-container h1 {
+    color: rgb(2, 2, 8);
+    padding-top: 10px;
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.portfolio-head {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-bottom: 40px;
+    gap: 20px;
+    background-color: #ffffff;
+}
+
+.portfolio-head li {
+    color: rgb(67, 168, 235);
+    font-size: 14px;
+    background-color: #ffffff;
+}
+
+.web-btn {
+    background-color: transparent;
+    border: 2px solid rgb(67, 168, 235);
+    color: rgb(67, 168, 235);
+    padding: 10px 20px;
+    font-size: 14px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.web-btn:hover {
+    background-color: rgb(67, 168, 235);
+    color: white;
+}
+
+.place-holder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 40px;
+    position: relative;
+    width: 100%;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 300px;
+}
+
+.image-container img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.ph1 {
+    font-size: 14px;
+    color: #131212;
+    line-height: 1.6;
+    max-width: 300px;
+    text-align: left;
+}
+
+.grouparrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 6%;
+    height: 28%;
+    cursor: pointer;
+}
+
+.left-arrow {
+    left: 10%; /* Position arrow to the left of the image row */
+}
+
+.right-arrow {
+    right: 10%; /* Position arrow to the right of the image row */
+}
+
+.see-all-button {
+    background-color: #1b1b1b;
+    color: #fff;
+    padding: 10px 20px;
+    margin-top: 45px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(22, 52, 221, 0.932);
+    transition: box-shadow 0.3s ease;
+}
+
+.see-all-button:hover {
+    background-color: #692964;
+}
+
+.reality {
+    color: #60E1CB;
+    margin-top: 30px;
+}
+
+.o {
+    width: 30%;
+    height: 40%;
+    padding-left: 60px;
+}

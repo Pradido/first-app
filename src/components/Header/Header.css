@@ -1,0 +1,69 @@
+
+
+  /* Basic Reset for Margin and Padding */
+body, ul, li, a, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgba(235, 245, 241, 0.726);
+}
+
+/* Header container */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+/* Logo styling */
+.header img {
+    width: 140px;
+    height: 18px;
+    margin-left: 120px;
+}
+
+/* Navigation styling */
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 12px; /* Horizontal spacing between items */
+}
+
+.home {
+    color: black;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #60E1CB; /* White text color for links */
+    font-size: 15px;
+    transition: color 0.3s; /* Smooth color transition */
+    margin-right: 15px;
+}
+
+nav ul li a:hover {
+    color: #d620cd; /* Light color on hover */
+}
+
+nav ul li button {
+    background-color: #60E1CB; /* Blue background for button */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 23px;
+    margin-right: 70px;
+    transition: background-color 0.3s; /* Smooth background transition */
+}
+
+nav ul li button:hover {
+    background-color: #d620cd; /* Darker blue on hover */
+}
+
+
