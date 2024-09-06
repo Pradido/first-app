@@ -1,7 +1,7 @@
 import "./Hero.css";
 import rectangle from "./Rectangle.png";
 import image from "./image.png"
-import group1 from "./Group1.png"
+// import group1 from "./Group1.png"
 
 
 
@@ -15,9 +15,9 @@ function Hero(){
             We help you create <br /> your <span className="highlight">website</span>
           </h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipiscing elit. Dolore nostrum
-            obcaecati distinctio dolore! Cumque vero suscipit minus vel soluta magni
-            esse, accusantium laboriosam pariatur.
+            Lorem ipsum dolor sit amet consectetur adipiscing elit. <br /> Dolore nostrum
+            obcaecati distinctio dolore! <br /> Cumque vero suscipit minus
+            esse, <br />accusantium laboriosam pariatur.
           </p>
         
           <div className="buttons">

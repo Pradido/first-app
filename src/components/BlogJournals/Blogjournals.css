@@ -1,0 +1,8 @@
+.blogs {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    height: 80%;
+    padding-left: 230px;
+  }
+  

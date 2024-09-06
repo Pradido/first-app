@@ -90,8 +90,8 @@ html, body {
 }
 
 .ph1 {
-    font-size: 14px;
-    color: #131212;
+    font-size: 13px;
+    color: #292626ce;
     line-height: 1.6;
     max-width: 300px;
     text-align: left;
@@ -99,9 +99,9 @@ html, body {
 
 .grouparrow {
     position: absolute;
-    top: 50%;
+    top: 49%;
     transform: translateY(-50%);
-    width: 6%;
+    width: 7%;
     height: 28%;
     cursor: pointer;
 }
@@ -118,7 +118,7 @@ html, body {
     background-color: #1b1b1b;
     color: #fff;
     padding: 10px 20px;
-    margin-top: 45px;
+    margin-top: 70px;
     border-radius: 20px;
     border: none;
     cursor: pointer;

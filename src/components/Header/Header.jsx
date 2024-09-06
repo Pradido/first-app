@@ -10,7 +10,7 @@ function Header(){
                 <ul>
                     <li><a className="home" href="#">Home</a></li>
                     <li><a href="#">Services</a></li>
-                    <li><a href="#">Case</a></li>
+                    {/* <li><a href="#">Case</a></li> */}
                     <li><a href="#">DaCode Specialists</a></li>
                     <li><a href="#">Blog</a></li>
                     <li><button>Request a quote</button></li>

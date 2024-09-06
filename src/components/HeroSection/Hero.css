@@ -84,10 +84,11 @@
   
   /* Image Section */
   .image-section img {
-    width: 800px;
+    width: 1100px;
     height: auto;
     object-fit: contain;
-    padding-left: 130px;
+    padding-left: 400px;
     justify-content: right;
+    margin-top: -30%;
   }
   

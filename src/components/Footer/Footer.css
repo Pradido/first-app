@@ -1,0 +1,106 @@
+.footer-container {
+    background-color: #5cd4c6; /* Light green background from the image */
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    max-width: 1200px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    padding-bottom: 20px;
+  }
+  
+  .footer-logo-section {
+    max-width: 300px;
+  }
+  
+  .footer-logo-section h2 {
+    font-size: 2.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #000;
+  }
+  
+  .footer-logo-section p {
+    margin: 5px 0;
+    color: rgba(0, 0, 0, 0.8); /* Slightly lighter text */
+  }
+  
+  .footer-links {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+  }
+  
+  .footer-links div {
+    margin-right: 50px;
+  }
+  
+  .footer-links h3 {
+    font-size: 1.4rem;
+    margin-bottom: 15px;
+    font-weight: bold;
+    color: #000;
+  }
+  
+  .footer-links ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-links li {
+    margin-bottom: 10px;
+    color: rgba(0, 0, 0, 0.7);
+    transition: color 0.3s ease;
+  }
+  
+  .footer-links li:hover {
+    color: #333; /* Hover effect for links */
+  }
+  
+  .footer-language-section {
+    display: flex;
+    align-items: center;
+  }
+  
+  .footer-language-section h3 {
+    margin-right: 5px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #000;
+  }
+  
+  .footer-language-section span {
+    font-size: 1.4rem;
+    color: #000;
+    cursor: pointer;
+  }
+  
+  .footer-social {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    max-width: 1200px;
+    padding-top: 20px;
+  }
+  
+  .footer-social span {
+    margin-left: 30px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.7);
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-social span:hover {
+    color: #333; /* Hover effect for social media links */
+  }
+  

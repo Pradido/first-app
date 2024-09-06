@@ -1,7 +1,9 @@
-.reality {
-    color: #60E1CB;
+.idea-container {
+    justify-content: center;
+    display: flex;
 }
 
-.youridea {
-    justify-content: center;
+.idea-image {
+    width: 90%;
+    height: 85%;
 }

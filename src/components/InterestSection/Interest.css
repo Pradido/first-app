@@ -1,0 +1,43 @@
+/* General Styling */
+.interest-container {
+    background-color: #60E1CB; /* Adjust this to match the specific green background color */
+    height: 300px; /* Adjust the height as needed */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.interest-heading {
+    color: #000; /* Dark heading color */
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.interest-subheading {
+    color: #333; /* Subheading color */
+    font-size: 14px;
+    margin-bottom: 40px;
+}
+
+.email-button {
+    background-color: #1b1b1b; /* Dark background for the button */
+    color: #fff; /* White text color */
+    padding: 15px 40px;
+    border-radius: 30px;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+.email-button:hover {
+    color: #3ce4a3;
+    box-shadow: 0 6px 8px rgba(66, 9, 199, 0.973);
+}
+
