@@ -8,11 +8,10 @@ function Header(){
 
             <nav>
                 <ul>
-                    <li><a className="home" href="#">Home</a></li>
-                    <li><a href="#">Services</a></li>
-                    {/* <li><a href="#">Case</a></li> */}
-                    <li><a href="#">DaCode Specialists</a></li>
-                    <li><a href="#">Blog</a></li>
+                    <li><a className="home" href="/">Home</a></li>
+                    <li><a href="/services">Services</a></li>
+                    {/* <li><a href="#">DaCode Specialists</a></li> */}
+                    <li><a href="/blog">Blog</a></li>
                     <li><button>Request a quote</button></li>
                 </ul>
             </nav>

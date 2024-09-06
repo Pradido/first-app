@@ -1,7 +1,8 @@
 import React from 'react';
-import './Blog.css'; // Import the CSS for styling
+import './BlogSection.css'; // Import the CSS for styling
+import Blogs from "./Blogs.png"
 
-function Blog() {
+function BlogSection() {
     return (
         <div className="blog-container">
             <div className="blog-content">
@@ -18,8 +19,9 @@ function Blog() {
                     </button>
                 </div>
             </div>
+                <img className='blog-img' src={Blogs} alt="" />
         </div>
     );
 }
 
-export default Blog;
+export default BlogSection;
